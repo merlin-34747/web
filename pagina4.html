@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+        body {
+            background-image: url('images.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+h1 {
+    color: #FF6347; 
+    text-align: center;
+    margin: 0
+   font-size: 30px;
+}
+@keyframes cambiarColores {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: black; }
+    75% { color: orange; }
+    100% { color: red; }
+}
+
+h1 {
+    animation: cambiarColores 6s infinite;
+}
+h2 {
+    color: #FF6347; 
+    text-align: center;
+    margin: 0
+   font-size: 30px;
+}
+ @keyframes mover {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+h2 {
+    animation: mover 2s infinite;
+}
+ .gusanito {
+            width: 50px;
+            height: 50px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            position: absolute;
+            animation: mover 5s infinite linear;
+        }
+
+        @keyframes mover {
+            0% { top: 0; left: 0; }
+            25% { top: 0; left: 100%; transform: translateX(-100%); }
+            50% { top: 100%; left: 100%; transform: translate(-100%, -100%); }
+            75% { top: 100%; left: 0; transform: translateY(-100%); }
+            100% { top: 0; left: 0; }
+        }
+.boton {
+     background-color:#000000;
+     border: white;
+     color: white;
+     padding: 15px 32px;
+     text-aling: center;
+     text-decoration: none;
+     display: inline-block;
+     fond-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+    border-radius:10px;
+    opacity: 0.5;
+    }
+.boton: hover {
+         background-color:#000000
+}
+.boton {
+      display: flex;
+      justify-content: center;
+      aling-item: center;
+      height:6px;
+      }
+
+p {
+    margin-bottom: 20px;
+   font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+ <section id="botones">
+            <h1>Mira los Botones</h1>
+            <a href="index.html" class="boton">Huracán Fifí-Orlene</a>
+            <a href="pagina 2.html" class="boton">Huracán Mitch</a>
+            <a href="pagina3.html" class="boton">Tormenta tropical Gamma</a>
+        </section>
+<h1> Hola De Nuevo Gracias por Ver mi Pagina Web Espero Le Aya servido de Mucho.</h1>
+<div class="gusanito"></div><br></br>
+<div class="gusanito"></div>
+<h2> Esta pagina esta desarrollada con codigo HTML.CSS.Javascript.</h2>
+<h1> GRACIAS 🎶🎶🎶🖊️🖊️ BENDICIONES</h2>
+</body>
+</html>
